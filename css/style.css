@@ -45,11 +45,11 @@ ol {
     text-transform: uppercase;
 }
 
-.logo span {
+.studio-header {
     color: var(--navyblue);
 }
 .logo-footer {
-    color: var(--ocean);
+    color: var(--iris);
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -71,8 +71,10 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu:hover,
-menu:focus {
+.menu:hover {
+    color: var(--ocean);
+}
+.menu:focus {
     color: var(--ocean);
 }
 
@@ -88,8 +90,10 @@ menu:focus {
     color: var(--slate);
 }
 
-.contacts:hover,
 .contacts:focus {
+    color: var(--ocean);
+}
+.contacts:hover {
     color: var(--ocean);
 }
 
