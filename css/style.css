@@ -13,7 +13,15 @@ body {
     background-color: #ffffff;
     color: var(--slate);
 }
-a {
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+/* a {
     text-decoration: none;
     font-style: normal;
 }
@@ -21,43 +29,54 @@ a {
 ul,
 ol {
     list-style-type: none;
-}
+} */
 .header {
     background-color: var(--cornflower);
 }
 
-.logo,
-.logo-footer {
-    color: var(--iris);
+.logo {
+    color: var(--ocean);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+
 .logo span {
     color: var(--navyblue);
 }
+.logo-footer {
+    color: var(--ocean);
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
-.logo-footer span {
+.logo-footer .studio {
     color: var(--cloud);
 }
+
 .menu {
     color: var(--navyblue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .menu:hover,
 menu:focus {
     color: var(--ocean);
 }
 
-.contacts {
+.address {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -83,17 +102,18 @@ menu:focus {
 .service {
     background-color: var(--navyblue);
 }
-.header-1 {
+.header-one {
     color: var(--white);
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 1.12px;
+    letter-spacing: 1.07px;
+    text-align: center;
 }
 .order-service-button {
     background-color: var(--iris);
     font-size: 16px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -106,7 +126,11 @@ menu:focus {
 .order-service-button:focus {
     background-color: var(--ocean);
 }
-.header-3 {
+
+.team-member {
+    background-color: var(--white);
+}
+.header-three {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
@@ -120,13 +144,14 @@ menu:focus {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.header-2 {
+.header-two {
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 .section-team {
     background-color: var(--cloud);
