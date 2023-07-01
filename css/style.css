@@ -35,7 +35,7 @@ ol {
 }
 
 .logo {
-    color: var(--ocean);
+    color: var(--iris);
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -84,6 +84,9 @@ menu:focus {
     letter-spacing: 0.32px;
     color: var(--slate);
 }
+.contacts {
+    color: var(--slate);
+}
 
 .contacts:hover,
 .contacts:focus {
@@ -106,8 +109,8 @@ menu:focus {
     color: var(--white);
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.07px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .order-service-button {
@@ -162,8 +165,9 @@ menu:focus {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 .button-category:hover,
 .button-category:focus {
